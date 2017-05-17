@@ -1,0 +1,14 @@
+import lc3b_types::*;
+module and
+(
+	input a,
+	input b,
+	output f
+);
+
+always_comb
+begin
+   assign f = a & b;
+end
+
+endmodule : and
