@@ -1,0 +1,19 @@
+import lc3b_types::*;
+
+module nzp_comp
+(
+	input lc3b_nzp nzp, /*cc_out*/
+	input lc3b_reg dest,
+	
+	output logic branch_enable
+);
+
+always_comb
+begin
+	if ((nzp[0] && dest[0]) || (nzp[1] && dest[1]) || (nzp[2] && dest[2]))
+		branch_enable = 1;
+	else
+		branch_enable = 0;
+end
+
+endmodule: nzp_comp
