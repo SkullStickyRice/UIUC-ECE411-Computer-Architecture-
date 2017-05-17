@@ -1,0 +1,487 @@
+# do /tmp/tmp.H7HJRNKIsw/do.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/btb_pc_target_array.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module btb_pc_target_array
+# 
+# Top level modules:
+# 	btb_pc_target_array
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/btb_counter.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module btb_counter
+# 
+# Top level modules:
+# 	btb_counter
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/btb_pc_array.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module btb_pc_array
+# 
+# Top level modules:
+# 	btb_pc_array
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/nzp_comparator.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module nzp_comparator
+# 
+# Top level modules:
+# 	nzp_comparator
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/lc3b_types.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package lc3b_types
+# 
+# Top level modules:
+# 	--none--
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/plus2.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module plus2
+# 
+# Top level modules:
+# 	plus2
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/register.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/mux2.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/cache_control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package cache_control_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module cache_control
+# 
+# Top level modules:
+# 	cache_control
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/data_write_select.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package data_write_select_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module data_write_select
+# 
+# Top level modules:
+# 	data_write_select
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/next_LRU.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package next_LRU_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module next_LRU
+# 
+# Top level modules:
+# 	next_LRU
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/L2cache_control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package L2cache_control_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module L2cache_control
+# 
+# Top level modules:
+# 	L2cache_control
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/L2cache_data_write_select.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package L2cache_data_write_select_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module L2cache_data_write_select
+# 
+# Top level modules:
+# 	L2cache_data_write_select
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/L2cache_next_LRU.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package L2cache_next_LRU_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module L2cache_next_LRU
+# 
+# Top level modules:
+# 	L2cache_next_LRU
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/L2cache_decide_LRU.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package L2cache_decide_LRU_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module L2cache_decide_LRU
+# 
+# Top level modules:
+# 	L2cache_decide_LRU
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/mux4.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/ewb_control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package ewb_control_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module ewb_control
+# 
+# Top level modules:
+# 	ewb_control
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/btb_valid_array.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module btb_valid_array
+# 
+# Top level modules:
+# 	btb_valid_array
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/btb.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package btb_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module btb
+# 
+# Top level modules:
+# 	btb
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/EX_REG.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package EX_REG_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module EX_REG
+# 
+# Top level modules:
+# 	EX_REG
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/IF_REG.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package IF_REG_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module IF_REG
+# 
+# Top level modules:
+# 	IF_REG
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/cache_datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package cache_datapath_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module cache_datapath
+# 
+# Top level modules:
+# 	cache_datapath
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/cpu_datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package cpu_datapath_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module cpu_datapath
+# 
+# Top level modules:
+# 	cpu_datapath
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/cpu_control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package cpu_control_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module cpu_control
+# 
+# Top level modules:
+# 	cpu_control
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/adj.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package adj_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module adj
+# 
+# Top level modules:
+# 	adj
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/alu.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package alu_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/gencc.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package gencc_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module gencc
+# 
+# Top level modules:
+# 	gencc
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/regfile.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package regfile_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/array.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package array_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module array
+# 
+# Top level modules:
+# 	array
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/cache_hit_check.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package cache_hit_check_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module cache_hit_check
+# 
+# Top level modules:
+# 	cache_hit_check
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/word_select.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package word_select_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module word_select
+# 
+# Top level modules:
+# 	word_select
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/word_write.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package word_write_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module word_write
+# 
+# Top level modules:
+# 	word_write
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/ID_REG.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package ID_REG_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module ID_REG
+# 
+# Top level modules:
+# 	ID_REG
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/MEM_REG.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package MEM_REG_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module MEM_REG
+# 
+# Top level modules:
+# 	MEM_REG
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/hazard_detection_unit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package hazard_detection_unit_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module hazard_detection_unit
+# 
+# Top level modules:
+# 	hazard_detection_unit
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/dcache.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package dcache_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module dcache
+# 
+# Top level modules:
+# 	dcache
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/icache.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package icache_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module icache
+# 
+# Top level modules:
+# 	icache
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/arbiter_logic.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package arbiter_logic_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module arbiter_logic
+# 
+# Top level modules:
+# 	arbiter_logic
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/L2cache.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package L2cache_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module L2cache
+# 
+# Top level modules:
+# 	L2cache
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/L2cache_datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package L2cache_datapath_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module L2cache_datapath
+# 
+# Top level modules:
+# 	L2cache_datapath
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/L2cache_hit_check.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package L2cache_hit_check_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module L2cache_hit_check
+# 
+# Top level modules:
+# 	L2cache_hit_check
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/data_forwarding_unit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package data_forwarding_unit_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module data_forwarding_unit
+# 
+# Top level modules:
+# 	data_forwarding_unit
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/ewb_datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package ewb_datapath_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module ewb_datapath
+# 
+# Top level modules:
+# 	ewb_datapath
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/performance_counter.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package performance_counter_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module performance_counter
+# 
+# Top level modules:
+# 	performance_counter
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/cpu.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package cpu_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/ewb.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package ewb_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module ewb
+# 
+# Top level modules:
+# 	ewb
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/mp3.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package mp3_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module mp3
+# 
+# Top level modules:
+# 	mp3
+# 
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/mp3_tb.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package mp3_tb_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module mp3_tb
+# 
+# Top level modules:
+# 	mp3_tb
+# vlog -sv -work work +incdir+/home/sccho3/ece411/ECE411MP3oops/mp3cp4 {/home/sccho3/ece411/ECE411MP3oops/mp3cp4/physical_memory.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module physical_memory
+# 
+# Top level modules:
+# 	physical_memory
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L stratixiii_ver -L rtl_work -L work -voptargs="+acc"  mp3_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L stratixiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps mp3_tb 
+# Loading sv_std.std
+# Loading work.lc3b_types
+# Loading work.mp3_tb_sv_unit
+# Loading work.mp3_tb
+# Loading work.mp3_sv_unit
+# Loading work.mp3
+# Loading work.cpu_sv_unit
+# Loading work.cpu
+# Loading work.cpu_datapath_sv_unit
+# Loading work.cpu_datapath
+# Loading work.data_forwarding_unit_sv_unit
+# Loading work.data_forwarding_unit
+# Loading work.mux2
+# Loading work.hazard_detection_unit_sv_unit
+# Loading work.hazard_detection_unit
+# Loading work.register
+# Loading work.IF_REG_sv_unit
+# Loading work.IF_REG
+# Loading work.ID_REG_sv_unit
+# Loading work.ID_REG
+# Loading work.EX_REG_sv_unit
+# Loading work.EX_REG
+# Loading work.MEM_REG_sv_unit
+# Loading work.MEM_REG
+# Loading work.btb_sv_unit
+# Loading work.btb
+# Loading work.btb_pc_array
+# Loading work.btb_valid_array
+# Loading work.btb_pc_target_array
+# Loading work.btb_counter
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.adj_sv_unit
+# Loading work.adj
+# Loading work.mux4
+# Loading work.adder
+# Loading work.plus2
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.nzp_comparator
+# Loading work.cpu_control_sv_unit
+# Loading work.cpu_control
+# Loading work.dcache_sv_unit
+# Loading work.dcache
+# Loading work.cache_datapath_sv_unit
+# Loading work.cache_datapath
+# Loading work.array_sv_unit
+# Loading work.array
+# Loading work.cache_hit_check_sv_unit
+# Loading work.cache_hit_check
+# Loading work.word_write_sv_unit
+# Loading work.word_write
+# Loading work.data_write_select_sv_unit
+# Loading work.data_write_select
+# Loading work.next_LRU_sv_unit
+# Loading work.next_LRU
+# Loading work.word_select_sv_unit
+# Loading work.word_select
+# Loading work.cache_control_sv_unit
+# Loading work.cache_control
+# Loading work.icache_sv_unit
+# Loading work.icache
+# Loading work.arbiter_logic_sv_unit
+# Loading work.arbiter_logic
+# Loading work.L2cache_sv_unit
+# Loading work.L2cache
+# Loading work.L2cache_datapath_sv_unit
+# Loading work.L2cache_datapath
+# Loading work.L2cache_hit_check_sv_unit
+# Loading work.L2cache_hit_check
+# Loading work.L2cache_data_write_select_sv_unit
+# Loading work.L2cache_data_write_select
+# Loading work.L2cache_decide_LRU_sv_unit
+# Loading work.L2cache_decide_LRU
+# Loading work.L2cache_next_LRU_sv_unit
+# Loading work.L2cache_next_LRU
+# Loading work.L2cache_control_sv_unit
+# Loading work.L2cache_control
+# Loading work.ewb_sv_unit
+# Loading work.ewb
+# Loading work.ewb_datapath_sv_unit
+# Loading work.ewb_datapath
+# Loading work.ewb_control_sv_unit
+# Loading work.ewb_control
+# Loading work.performance_counter_sv_unit
+# Loading work.performance_counter
+# Loading work.physical_memory
+# ** Warning: (vsim-3017) /home/sccho3/ece411/ECE411MP3oops/mp3cp4/L2cache.sv(54): [TFMPC] - Too few port connections. Expected 18, found 17.
+#         Region: /mp3_tb/dut/L2cache_inst/L2cache_datapath_inst
+# ** Warning: (vsim-3722) /home/sccho3/ece411/ECE411MP3oops/mp3cp4/L2cache.sv(54): [TFMPC] - Missing connection for port 'mem_byte_enable'.
+# 
+# add wave *
+# view structure
+# add list -radix hexadecimal {/mp3_tb/dut/cpu_inst/cpu_datapath_inst/register_file/data}
+# run 10000000ns
+# write list /tmp/tmp.H7HJRNKIsw/test_list.lst
+# exit
