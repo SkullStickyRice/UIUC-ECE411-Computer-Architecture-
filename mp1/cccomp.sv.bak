@@ -1,0 +1,16 @@
+import lc3b_types::*;
+
+module cccomp (input lc3b_nzp cc_in,
+					input lc3b_nzp NZP_in,
+					output branch_enable);
+					
+logic BEA;
+
+always_comb
+begin
+if (cc_in == NZP_in)
+BEA = 1'b1;
+else
+BEA = 1'b0;
+end
+assign branch_enable = BEA;

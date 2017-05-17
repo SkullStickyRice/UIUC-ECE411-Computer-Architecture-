@@ -1,0 +1,83 @@
+import lc3b_types::*;
+
+module mp1
+(
+    input clk,
+
+    /* Memory signals */
+    input mem_resp,
+    input lc3b_word mem_rdata,
+    output mem_read,
+    output mem_write,
+    output lc3b_mem_wmask mem_byte_enable,
+    output lc3b_word mem_address,
+    output lc3b_word mem_wdata
+);
+logic pcmux_sel, 
+		load_pc,
+	   load_cc,
+	   load_ir,
+	   load_regfile,
+	   load_mar,
+	   load_mdr,
+	  storemux_sel,
+	 alumux_sel,
+	 regfilemux_sel,
+	 marmux_sel,
+	 branch_enable,
+	 mdrmux_sel;
+lc3b_aluop aluop;
+lc3b_word m_rdata;
+lc3b_word m_address;
+lc3b_word m_wdata;
+lc3b_mem_wmask m_byte_enable;
+lc3b_opcode opcode;
+assign m_rdata = mem_rdata;
+assign mem_address = m_address;
+assign mem_wdata = m_wdata;
+assign mem_byte_enable = m_byte_enable;
+/* Instantiate MP 0 top level blocks here */
+datapath dp (.clk,
+				 .pcmux_sel,
+				 .load_pc,
+				 .load_cc,
+				 .load_ir,
+				 .load_regfile,
+				 .load_mar,
+				 .load_mdr,
+				 .storemux_sel,
+				 .alumux_sel,
+				 .regfilemux_sel,
+				 .marmux_sel,
+				 .mdrmux_sel,
+				 .branch_enable,
+				 .opcode,
+				 .aluop,
+				 .mem_rdata(m_rdata),
+				 .mem_address(m_address),
+				 .mem_wdata(m_wdata));
+control ctrl_unit (	 .clk,
+/* Datapath controls */
+	.opcode,
+	.branch_enable,
+     .load_pc,
+     .load_ir,
+     .load_regfile,
+     .load_mar,
+     .load_mdr,
+     .load_cc,
+     .pcmux_sel,
+     .storemux_sel,
+     .alumux_sel,
+     .regfilemux_sel,
+     .marmux_sel,
+     .mdrmux_sel,
+	  .aluop,
+
+/* et cetera */
+/* Memory signals */
+		.mem_resp,
+     .mem_read,
+     .mem_write,
+	  .mem_byte_enable(m_byte_enable));
+endmodule : mp1

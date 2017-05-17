@@ -1,0 +1,11 @@
+import lc3b_types::*;
+module br_add #(parameter width = 16)
+(
+    input [width-1:0] in,
+	 input [8:0] adj9,
+    output logic [width-1:0] out
+);
+
+assign out = in + adj9;
+
+endmodule : br_add
